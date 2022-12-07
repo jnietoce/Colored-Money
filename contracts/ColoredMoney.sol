@@ -1,6 +1,11 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+/******************************
+COLORED MONEY IMPLEMENTATION PROPOSAL
+BY: JAVIER NIETO CENTENO
+*/
+
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/access/AccessControlEnumerable.sol";
