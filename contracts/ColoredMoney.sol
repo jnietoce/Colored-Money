@@ -17,7 +17,7 @@ contract ColoredMoney is ERC1155Supply, AccessControlEnumerable, Ownable {
     bytes32 public constant ENTITY_MANAGER = keccak256("ENTITY_MANAGER");
     bytes32 public constant REGULATOR = keccak256("REGULATOR");
 
-    
+    //Entities that can issue tokens
     struct Entity {
         string entityName;
         address entityAddress;
@@ -47,7 +47,7 @@ contract ColoredMoney is ERC1155Supply, AccessControlEnumerable, Ownable {
         _;
     }
 
-    constructor() ERC1155("https://game.chainsofglory.com/material/{id}.json") {
+    constructor() ERC1155("https://test.coloredmoney.com/entities/{id}.json") {
         _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
 
         //Assign to the creator the role of entity manager, just for convinience
