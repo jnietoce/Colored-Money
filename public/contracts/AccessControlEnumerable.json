@@ -269,13 +269,13 @@
         433
       ],
       "Context": [
-        1947
+        2362
       ],
       "ERC165": [
-        2248
+        2663
       ],
       "EnumerableSet": [
-        2859
+        3274
       ],
       "IAccessControl": [
         506
@@ -284,10 +284,10 @@
         531
       ],
       "IERC165": [
-        2260
+        2675
       ],
       "Strings": [
-        2224
+        2639
       ]
     },
     "id": 434,
@@ -336,7 +336,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 434,
-        "sourceUnit": 2860,
+        "sourceUnit": 3275,
         "src": "199:44:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -382,11 +382,11 @@
         "linearizedBaseContracts": [
           433,
           308,
-          2248,
-          2260,
+          2663,
+          2675,
           531,
           506,
-          1947
+          2362
         ],
         "name": "AccessControlEnumerable",
         "nameLocation": "358:23:1",
@@ -398,7 +398,7 @@
               "id": 319,
               "name": "EnumerableSet",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2859,
+              "referencedDeclaration": 3274,
               "src": "437:13:1"
             },
             "nodeType": "UsingForDirective",
@@ -410,13 +410,13 @@
                 "id": 320,
                 "name": "EnumerableSet.AddressSet",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 2572,
+                "referencedDeclaration": 2987,
                 "src": "455:24:1"
               },
-              "referencedDeclaration": 2572,
+              "referencedDeclaration": 2987,
               "src": "455:24:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_AddressSet_$2572_storage_ptr",
+                "typeIdentifier": "t_struct$_AddressSet_$2987_storage_ptr",
                 "typeString": "struct EnumerableSet.AddressSet"
               }
             }
@@ -433,7 +433,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
               "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet)"
             },
             "typeName": {
@@ -451,7 +451,7 @@
               "nodeType": "Mapping",
               "src": "486:44:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                 "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet)"
               },
               "valueType": {
@@ -461,13 +461,13 @@
                   "id": 324,
                   "name": "EnumerableSet.AddressSet",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2572,
+                  "referencedDeclaration": 2987,
                   "src": "505:24:1"
                 },
-                "referencedDeclaration": 2572,
+                "referencedDeclaration": 2987,
                 "src": "505:24:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_AddressSet_$2572_storage_ptr",
+                  "typeIdentifier": "t_struct$_AddressSet_$2987_storage_ptr",
                   "typeString": "struct EnumerableSet.AddressSet"
                 }
               }
@@ -799,7 +799,7 @@
                           "referencedDeclaration": 327,
                           "src": "1524:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -823,7 +823,7 @@
                         "nodeType": "IndexAccess",
                         "src": "1524:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -834,10 +834,10 @@
                       "lValueRequested": false,
                       "memberName": "at",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2695,
+                      "referencedDeclaration": 3110,
                       "src": "1524:21:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2572_storage_ptr_$_t_uint256_$returns$_t_address_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2987_storage_ptr_$_t_uint256_$returns$_t_address_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer,uint256) view returns (address)"
                       }
                     },
@@ -1008,7 +1008,7 @@
                           "referencedDeclaration": 327,
                           "src": "1825:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -1032,7 +1032,7 @@
                         "nodeType": "IndexAccess",
                         "src": "1825:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -1043,10 +1043,10 @@
                       "lValueRequested": false,
                       "memberName": "length",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2668,
+                      "referencedDeclaration": 3083,
                       "src": "1825:25:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2572_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2987_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer) view returns (uint256)"
                       }
                     },
@@ -1291,7 +1291,7 @@
                           "referencedDeclaration": 327,
                           "src": "2075:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -1315,7 +1315,7 @@
                         "nodeType": "IndexAccess",
                         "src": "2075:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -1326,10 +1326,10 @@
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2599,
+                      "referencedDeclaration": 3014,
                       "src": "2075:22:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2572_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2987_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer,address) returns (bool)"
                       }
                     },
@@ -1572,7 +1572,7 @@
                           "referencedDeclaration": 327,
                           "src": "2332:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -1596,7 +1596,7 @@
                         "nodeType": "IndexAccess",
                         "src": "2332:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -1607,10 +1607,10 @@
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2626,
+                      "referencedDeclaration": 3041,
                       "src": "2332:25:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2572_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2987_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer,address) returns (bool)"
                       }
                     },
@@ -1746,13 +1746,13 @@
         433
       ],
       "Context": [
-        1947
+        2362
       ],
       "ERC165": [
-        2248
+        2663
       ],
       "EnumerableSet": [
-        2859
+        3274
       ],
       "IAccessControl": [
         506
@@ -1761,10 +1761,10 @@
         531
       ],
       "IERC165": [
-        2260
+        2675
       ],
       "Strings": [
-        2224
+        2639
       ]
     },
     "id": 434,
@@ -1813,7 +1813,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 434,
-        "sourceUnit": 2860,
+        "sourceUnit": 3275,
         "src": "199:44:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1859,11 +1859,11 @@
         "linearizedBaseContracts": [
           433,
           308,
-          2248,
-          2260,
+          2663,
+          2675,
           531,
           506,
-          1947
+          2362
         ],
         "name": "AccessControlEnumerable",
         "nameLocation": "358:23:1",
@@ -1875,7 +1875,7 @@
               "id": 319,
               "name": "EnumerableSet",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2859,
+              "referencedDeclaration": 3274,
               "src": "437:13:1"
             },
             "nodeType": "UsingForDirective",
@@ -1887,13 +1887,13 @@
                 "id": 320,
                 "name": "EnumerableSet.AddressSet",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 2572,
+                "referencedDeclaration": 2987,
                 "src": "455:24:1"
               },
-              "referencedDeclaration": 2572,
+              "referencedDeclaration": 2987,
               "src": "455:24:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_AddressSet_$2572_storage_ptr",
+                "typeIdentifier": "t_struct$_AddressSet_$2987_storage_ptr",
                 "typeString": "struct EnumerableSet.AddressSet"
               }
             }
@@ -1910,7 +1910,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
               "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet)"
             },
             "typeName": {
@@ -1928,7 +1928,7 @@
               "nodeType": "Mapping",
               "src": "486:44:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                 "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet)"
               },
               "valueType": {
@@ -1938,13 +1938,13 @@
                   "id": 324,
                   "name": "EnumerableSet.AddressSet",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2572,
+                  "referencedDeclaration": 2987,
                   "src": "505:24:1"
                 },
-                "referencedDeclaration": 2572,
+                "referencedDeclaration": 2987,
                 "src": "505:24:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_AddressSet_$2572_storage_ptr",
+                  "typeIdentifier": "t_struct$_AddressSet_$2987_storage_ptr",
                   "typeString": "struct EnumerableSet.AddressSet"
                 }
               }
@@ -2276,7 +2276,7 @@
                           "referencedDeclaration": 327,
                           "src": "1524:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -2300,7 +2300,7 @@
                         "nodeType": "IndexAccess",
                         "src": "1524:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -2311,10 +2311,10 @@
                       "lValueRequested": false,
                       "memberName": "at",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2695,
+                      "referencedDeclaration": 3110,
                       "src": "1524:21:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2572_storage_ptr_$_t_uint256_$returns$_t_address_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2987_storage_ptr_$_t_uint256_$returns$_t_address_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer,uint256) view returns (address)"
                       }
                     },
@@ -2485,7 +2485,7 @@
                           "referencedDeclaration": 327,
                           "src": "1825:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -2509,7 +2509,7 @@
                         "nodeType": "IndexAccess",
                         "src": "1825:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -2520,10 +2520,10 @@
                       "lValueRequested": false,
                       "memberName": "length",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2668,
+                      "referencedDeclaration": 3083,
                       "src": "1825:25:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2572_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_AddressSet_$2987_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer) view returns (uint256)"
                       }
                     },
@@ -2768,7 +2768,7 @@
                           "referencedDeclaration": 327,
                           "src": "2075:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -2792,7 +2792,7 @@
                         "nodeType": "IndexAccess",
                         "src": "2075:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -2803,10 +2803,10 @@
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2599,
+                      "referencedDeclaration": 3014,
                       "src": "2075:22:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2572_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2987_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer,address) returns (bool)"
                       }
                     },
@@ -3049,7 +3049,7 @@
                           "referencedDeclaration": 327,
                           "src": "2332:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2572_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_AddressSet_$2987_storage_$",
                             "typeString": "mapping(bytes32 => struct EnumerableSet.AddressSet storage ref)"
                           }
                         },
@@ -3073,7 +3073,7 @@
                         "nodeType": "IndexAccess",
                         "src": "2332:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_AddressSet_$2572_storage",
+                          "typeIdentifier": "t_struct$_AddressSet_$2987_storage",
                           "typeString": "struct EnumerableSet.AddressSet storage ref"
                         }
                       },
@@ -3084,10 +3084,10 @@
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2626,
+                      "referencedDeclaration": 3041,
                       "src": "2332:25:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2572_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2572_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_AddressSet_$2987_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_AddressSet_$2987_storage_ptr_$",
                         "typeString": "function (struct EnumerableSet.AddressSet storage pointer,address) returns (bool)"
                       }
                     },
@@ -3219,7 +3219,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-27T21:39:48.698Z",
+  "updatedAt": "2022-12-07T11:01:29.052Z",
   "devdoc": {
     "details": "Extension of {AccessControl} that allows enumerating the members of each role.",
     "kind": "dev",
