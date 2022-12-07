@@ -64,6 +64,16 @@ contract ColoredMoney is ERC1155Supply, AccessControlEnumerable, Ownable {
         
     }
 
+    //Suspends the minting and burning
+    function suspend() public onlyOwner {
+        suspended=true;
+    }
+
+    //Resume the minting and burning
+    function resume() public onlyOwner {
+        suspended=false;
+    }
+
 
     function mint (address _to, uint16 entityId, uint256 amount) public onlyEntity(entityId) {
         require(!suspended, "Contract is suspended");

@@ -95,7 +95,7 @@ contract("COLORED MONEY", (accounts) => {
 
     });
 
-    it("Test user1 cannot more tokens than it owns in total", async () => {
+    it("Test user1 cannot transfer more tokens than it owns in total", async () => {
         let coloredMoney = await ColoredMoney.deployed();
 
         try{
